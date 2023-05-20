@@ -36,6 +36,16 @@ body {
     justify-content: center;
 }
 
+#num1 {
+    background-color: rgb(0, 119, 255);
+    border-radius: 50% 50%;
+    width: 18px;
+    height: 18px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
 .numBlue {
     background-color: rgb(0, 119, 255);
     border-radius: 50% 50%;
@@ -67,6 +77,12 @@ body {
     height: 0.2em;
 }
 
+.lineBlue {
+    background-color: rgb(0, 119, 255);
+    width: 2em;
+    height: 0.2em;
+}
+
 .btn__main {
     display: flex;
     flex-direction: row;
@@ -83,6 +99,17 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+
+.btn__gray {
+    background-color: rgb(235, 235, 235);
+    width: 3em;
+    height: 1.5em;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: not-allowed;
 }
 
 .btn p {
